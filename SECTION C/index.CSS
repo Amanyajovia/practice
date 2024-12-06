@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 20px;
+    right: 40px;
+}
+a{
+    padding: 10px;
+    color: orangered;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.media-icons{
+    display: inline-block; 
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; /
+}
+
+.media-icons img {
+    width: 60px; 
+    height: 60px; 
+    object-fit: contain; 
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.media-icons a:hover img {
+    transform: scale(1.2); 
+    filter: brightness(1.2); 
+}
+
+
+.media-icons a:hover {
+    transform: scale(1.1); 
+}
+
+footer{
+    align-items: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}

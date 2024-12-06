@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 20px;
+    right: 40px;
+}
+a{
+    padding: 10px;
+    color: orangered;
+}
